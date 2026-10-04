@@ -1,0 +1,14 @@
+// Cloudflare Worker (static assets) for Artificial Life Lab.
+// Deploy: pnpm deploy  (builds dist/, then `wrangler deploy`)
+// Custom domain: life-sim.shadster.dev (Worker → Custom Domains)
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "life-sim",
+  "compatibility_date": "2025-01-01",
+  "assets": {
+    "directory": "./dist",
+    // Client-side routes must resolve to the SPA shell.
+    "not_found_handling": "single-page-application"
+  },
+  "routes": [{ "pattern": "life-sim.shadster.dev", "custom_domain": true }]
+}

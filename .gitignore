@@ -1,0 +1,9 @@
+dist
+dist/\n*.tsbuildinfo
+dist-ssr
+.DS_Store
+*.local
+node_modules
+.pnpm-store
+*.tsbuildinfo
+.wrangler

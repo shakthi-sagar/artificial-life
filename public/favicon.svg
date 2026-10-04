@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <rect width="32" height="32" rx="7" fill="#0c1512" />
+  <g transform="scale(1.3333)">
+    <!-- culture medium: a wavy meniscus, clipped visually by the flask stroke -->
+    <path
+      d="M5.9 16.6q2.05-1.25 4.1 0t4.1 0q2.05-1.25 4.1 0l1.1 4a1 1 0 0 1-.9.6H5.6a1 1 0 0 1-.9-.6z"
+      fill="#10b981"
+      opacity="0.32"
+    />
+    <!-- flask -->
+    <path
+      d="M10 2v7.53a2 2 0 0 1-.21.9L4.72 20.55a1 1 0 0 0 .9 1.45h12.76a1 1 0 0 0 .9-1.45l-5.07-10.12a2 2 0 0 1-.21-.9V2M14 2h-4M8.5 2h7M7 16h10"
+      fill="none"
+      stroke="#34d399"
+      stroke-width="1.9"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <!-- life in the dish -->
+    <circle cx="11" cy="18.5" r="1.25" fill="#4ade80" />
+    <circle cx="14.1" cy="19.9" r="1" fill="#f472b6" />
+    <circle cx="9.6" cy="20.5" r="0.85" fill="#60a5fa" />
+  </g>
+</svg>
